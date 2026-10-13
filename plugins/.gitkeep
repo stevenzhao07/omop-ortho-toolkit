@@ -1,0 +1,2 @@
+# 扩展点（plugins/）
+新增术式：在 `PROCEDURE_MAP` 加源代码→名称，SQL 骨架自动扩。

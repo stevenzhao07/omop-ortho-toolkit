@@ -1,0 +1,42 @@
+{
+  "id": "omop-ortho-toolkit",
+  "title": "手术登记 → OMOP CDM ETL 提案（骨科示例，框架通用）",
+  "description": "把骨科手术登记（关节置换 TKA/THA、植入物）映射到 OHDSI OMOP CDM 的 ETL 提案与示例：源代码（CPT/SNOMED）→ OMOP 概念集，产出概念集 SQL 骨架。投 OHDSI CDM WG。",
+  "triggers": {
+    "keywords": [
+      "omop",
+      "ohdsi",
+      "cdm",
+      "etl",
+      "ortho",
+      "登记",
+      "概念集"
+    ],
+    "file_patterns": [
+      "omop_ortho.py"
+    ],
+    "intents": [
+      "OMOP映射",
+      "骨科登记",
+      "ETL"
+    ]
+  },
+  "provides": [
+    "omop-ortho-toolkit",
+    "omop",
+    "etl",
+    "concept-set"
+  ],
+  "skills": [],
+  "needs_backends": [],
+  "license": "Apache-2.0",
+  "upstream": "OHDSI CDM WG",
+  "cost": "low",
+  "lazy": true,
+  "nested": true,
+  "entry": "scripts/omop_ortho.py",
+  "deps": [],
+  "generated_by": "lgd-skeleton/1.0 (manual port from rea scaffold)",
+  "idea": "骨科登记 → OMOP CDM ETL 提案 + 概念集示例",
+  "extension_note": "新增术式：在 `PROCEDURE_MAP` 加源代码→名称，SQL 骨架自动扩。"
+}
