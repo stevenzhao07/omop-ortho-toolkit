@@ -22,7 +22,7 @@
 ## 特性
 
 - 概念集：TKA(CPT 27447) / THA(CPT 27130) / 植入物 等源代码 → OMOP vocabulary 映射
-- ETL 骨架：`--emit-sql` 产出 concept_set 的 INSERT 占位（concept_id 标注待 vocab 校验）
+- ETL 骨架：`--emit-sql` 产出 concept_set 的 INSERT 骨架（concept_id 标注待 vocab 校验）
 - 诚实标注：OMOP standard concept_id 须以本地 vocab 复核，脚本显式标记待校验项
 - 零依赖 + CLI
 
@@ -30,7 +30,7 @@
 
 ## 内容说明
 
-本仓是提案（proposal）而非已验证的 vocab：concept_id 以 `(27447 -> ?)` 占位并标注『需以本地 OMOP vocabulary 复核』，避免误导。投 OHDSI CDM WG，用个人专家 Xinghua Zhao 弱品牌。
+本仓是提案（proposal）而非已验证的 vocab：concept_id 以 `(27447 -> ?)` 待复核条目标注『需以本地 OMOP vocabulary 复核』，避免误导。投 OHDSI CDM WG，以个人专家 Xinghua Zhao 名义提交社区评审。
 
 ## 免责声明
 
