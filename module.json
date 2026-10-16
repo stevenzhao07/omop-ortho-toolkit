@@ -3,7 +3,7 @@
   "stage": "X",
   "stage_name": "横切：数据互操作",
   "title": "手术登记 → OMOP CDM ETL 提案（骨科示例，框架通用）",
-  "description": "把骨科手术登记（关节置换 TKA/THA、植入物）映射到 OHDSI OMOP CDM 的 ETL 提案与示例：源代码（CPT/SNOMED）→ OMOP 概念集，产出概念集 SQL 骨架。投 OHDSI CDM WG。",
+  "description": "Maps orthopedic surgery registries (TKA/THA arthroplasty, implants) to the OHDSI OMOP CDM.",
   "triggers": {
     "keywords": [
       "omop",
